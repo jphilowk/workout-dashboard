@@ -7,3 +7,5 @@ Workout changes are stored in localStorage on the current device and browser. Th
 On iPhone, open the site in Safari and add it to the Home Screen before entering changes. Use that same Home Screen app consistently. Timer sound requires the app to stay open; the countdown catches up when returning from the background.
 
 Served as plain static files on GitHub Pages. No build step or dependencies.
+
+The rest alarm repeats three tones until Stop alarm, Reset, or a new duration is selected. Test sound previews the same alarm and also unlocks audio after reloading. Keep the app visible and media volume up; iPhone background/lock-screen alarms are not guaranteed.
